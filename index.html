@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campo e Cidade</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #d6f0c0 50%, #a3c1d1 50%);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      background-color: #4a7c29; /* verde campo */
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      margin-bottom: 30px;
+    }
+
+    main {
+      max-width: 800px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+      padding: 30px;
+      text-align: center;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #2e5914; /* verde escuro */
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      background-color: #3b5998; /* azul cidade */
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      background-color: #2d4373;
+    }
+
+    /* Botão campo com cor verde */
+    .btn-campo {
+      background-color: #4a7c29;
+    }
+    .btn-campo:hover {
+      background-color: #355917;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Campo e Cidade
+  </header>
+
+  <main>
+    <section>
+      <h2>Festejando a Conexão Campo-Cidade</h2>
+      <p>
+        A conexão entre o campo e a cidade é fundamental para o desenvolvimento sustentável e econômico do nosso país. Enquanto o campo produz alimentos e recursos naturais, a cidade concentra atividades econômicas, serviços e inovação tecnológica. Celebrar essa relação é reconhecer a interdependência que impulsiona o progresso e a qualidade de vida.
+      </p>
+    </section>
+
+    <section class="buttons">
+      <button class="btn-campo" onclick="window.location.href='https://exemplo.com/campo-na-producao'">
+        Campo na Produção
+      </button>
+      <button onclick="window.location.href='https://exemplo.com/cidade-na-economia'">
+        Cidade na Economia
+      </button>
+    </section>
+
+    <section>
+      <h2>Campo na Produção</h2>
+      <p>
+        O campo é o coração da produção agrícola, responsável por garantir alimentos frescos e matérias-primas essenciais para diversas indústrias. Investimentos em tecnologia e sustentabilidade no campo promovem maior produtividade e respeito ao meio ambiente.
+      </p>
+    </section>
+
+    <section>
+      <h2>Cidade na Economia</h2>
+      <p>
+        A cidade é o centro das atividades econômicas, serviços, comércio e inovação. Ela recebe e transforma os recursos vindos do campo, gerando empregos, renda e qualidade de vida para a população urbana e rural.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
